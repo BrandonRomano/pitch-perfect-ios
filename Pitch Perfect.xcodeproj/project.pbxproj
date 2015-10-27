@@ -14,7 +14,7 @@
 		CA3BB3511BB4BA6200DA848D /* Pitch_PerfectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3BB3501BB4BA6200DA848D /* Pitch_PerfectTests.swift */; };
 		CA3BB35C1BB4BA6200DA848D /* Pitch_PerfectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3BB35B1BB4BA6200DA848D /* Pitch_PerfectUITests.swift */; };
 		CAB8747D1BB5F1F0005D7A8B /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB8747C1BB5F1F0005D7A8B /* PlaySoundsViewController.swift */; };
-		CADBFD7E1BDD839D00296F19 /* RecordedAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = CADBFD7D1BDD839D00296F19 /* RecordedAudio.swift */; };
+		CADBFD821BDF215B00296F19 /* RecordedAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = CADBFD811BDF215B00296F19 /* RecordedAudio.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +48,7 @@
 		CA3BB35B1BB4BA6200DA848D /* Pitch_PerfectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pitch_PerfectUITests.swift; sourceTree = "<group>"; };
 		CA3BB35D1BB4BA6200DA848D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CAB8747C1BB5F1F0005D7A8B /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySoundsViewController.swift; sourceTree = "<group>"; };
-		CADBFD7D1BDD839D00296F19 /* RecordedAudio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RecordedAudio.swift; path = ../RecordedAudio.swift; sourceTree = "<group>"; };
+		CADBFD811BDF215B00296F19 /* RecordedAudio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordedAudio.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,7 +130,7 @@
 		CADBFD7F1BDDAB0400296F19 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				CADBFD7D1BDD839D00296F19 /* RecordedAudio.swift */,
+				CADBFD811BDF215B00296F19 /* RecordedAudio.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -273,10 +273,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CADBFD7E1BDD839D00296F19 /* RecordedAudio.swift in Sources */,
 				CA3BB33E1BB4BA6200DA848D /* RecordSoundsViewController.swift in Sources */,
 				CAB8747D1BB5F1F0005D7A8B /* PlaySoundsViewController.swift in Sources */,
 				CA3BB33C1BB4BA6200DA848D /* AppDelegate.swift in Sources */,
+				CADBFD821BDF215B00296F19 /* RecordedAudio.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
